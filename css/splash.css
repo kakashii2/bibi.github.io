@@ -25,10 +25,10 @@
 
 /* 로고 이미지1의 스타일 */
 .logo1 {
-    background-image: url('img/logo1.png');
+    background-image: url('../img/logo1.png');
 }
 
 /* 로고 이미지2의 스타일 */
 .logo2 {
-    background-image: url('img/logo2.png');
+    background-image: url('../img/logo2.png');
 }
