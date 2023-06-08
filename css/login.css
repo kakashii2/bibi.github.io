@@ -62,7 +62,7 @@
 
 
 .id {
-    background-image:url("../img/Messages.png");
+    background-image:url("img/Messages.png");
     background-position: 23px center;
     background-size: 16px;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@
 }
 
 .pw {
-    background-image:url("../img/Lock.png");
+    background-image:url("img/Lock.png");
     background-position: 23px center;
     background-size: 16px;
     background-repeat: no-repeat;

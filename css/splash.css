@@ -1,3 +1,38 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: 'Pretendard', sans-serif;
+    /* 프렌다드 글꼴을 기본 글꼴로 지정 */
+  }
+  
+  .mycontainer {
+    width: 395px;
+    height: 649px;
+    text-align: center;
+    align-items: center;
+  
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  
+    /*추가한 부분*/
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+
 /* 전체 화면을 채우는 스플래시 화면 스타일 */
 .splash-screen {
     width: 100%;
@@ -7,6 +42,12 @@
     align-items: center;
     background-color: #e9f0ff;
     ;
+}
+
+.mycontainer {
+    background-color: #e9f0ff;
+
+    
 }
 
 /* 로딩 텍스트 스타일 */
@@ -23,6 +64,47 @@
     background-position: center;
 }
 
+.main-logo {
+    
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    width: 218px;
+    height: 127px;
+    
+}
+
+.text-logo {
+    width: 218px;
+    height: 47px;
+   
+}
+
+#main-content a {
+    width: 217px;
+  /* height: 55px; */
+  margin-top: 54px;
+  object-fit: contain;
+  background-color: white;
+}
+
+#main-content a span{
+    width: 93px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #2d6af7;
+  
+}
+
 /* 로고 이미지1의 스타일 */
 .logo1 {
     background-image: url('../img/logo1.png');
@@ -32,3 +114,15 @@
 .logo2 {
     background-image: url('../img/logo2.png');
 }
+
+
+/* 메인로고 의 스타일 */
+.img-logo {
+    background-image: url('../img/mainlogo.png');
+}
+
+/* 로고 이미지2의 스타일 */
+.text-logo {
+    background-image: url('../img/logowriting.png');
+}
+
